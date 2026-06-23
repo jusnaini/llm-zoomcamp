@@ -14,9 +14,12 @@ The repository is organized by module. I am actively working through the curricu
 * Developed an AI agent setup capable of executing specific functions based on user queries.
 * Configured local environment management using Python's `uv` tool.
 
-### ⏳ Module 02: Vector Search — *Upcoming*
+### 🔄 [Module 02: Vector Search](./02-vector-search/)
 
-* *Planned:* Implementing semantic search using text embeddings and vector databases.
+* Embedded text using a lightweight ONNX model (all-MiniLM-L6-v2) — no PyTorch required
+* Built vector search from scratch with numpy dot products
+* Used minsearch.VectorSearch for indexed semantic retrieval
+* Compared keyword vs vector search and combined them with hybrid search (Reciprocal Rank Fusion)
 
 ### ⏳ Module 03: Workflow Orchestration — *Upcoming*
 
