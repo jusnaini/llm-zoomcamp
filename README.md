@@ -21,7 +21,7 @@ The repository is organized by module. I am actively working through the curricu
 * Used minsearch.VectorSearch for indexed semantic retrieval
 * Compared keyword vs vector search and combined them with hybrid search (Reciprocal Rank Fusion)
 
-### ✅ Module 03: Workflow Orchestration with Kestra
+### ✅ [Module 03: Workflow Orchestration with Kestra](./03-orchestration/)
 * Explored context engineering — why generic AI assistants fail and how to ground them in current documentation
 * Used Kestra's AI Copilot to generate and refine flows faster than building manually
 * Compared RAG vs no-RAG responses and observed hallucination firsthand
