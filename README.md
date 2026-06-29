@@ -8,22 +8,27 @@ The goal is to learn how to build, evaluate, and deploy production-ready Large L
 
 The repository is organized by module. I am actively working through the curriculum, adding source code and assignments as I complete them.
 
-### 🔄 [Module 01: Agentic RAG](./01-agentic-rag/)
+### ✅ [Module 01: Agentic RAG](./01-agentic-rag/)
 
 * Built a foundational text search and Retrieval-Augmented Generation (RAG) workflow.
 * Developed an AI agent setup capable of executing specific functions based on user queries.
 * Configured local environment management using Python's `uv` tool.
 
-### 🔄 [Module 02: Vector Search](./02-vector-search/)
+### ✅ [Module 02: Vector Search](./02-vector-search/)
 
 * Embedded text using a lightweight ONNX model (all-MiniLM-L6-v2) — no PyTorch required
 * Built vector search from scratch with numpy dot products
 * Used minsearch.VectorSearch for indexed semantic retrieval
 * Compared keyword vs vector search and combined them with hybrid search (Reciprocal Rank Fusion)
 
-### ⏳ Module 03: Workflow Orchestration — *Upcoming*
+### ✅ Module 03: Workflow Orchestration with Kestra
+* Explored context engineering — why generic AI assistants fail and how to ground them in current documentation
+* Used Kestra's AI Copilot to generate and refine flows faster than building manually
+* Compared RAG vs no-RAG responses and observed hallucination firsthand
+* Built autonomous AI agents that make decisions and call tools dynamically
+* Implemented multi-agent systems where specialized agents collaborate on complex tasks
+* Learned best practices for cost, security, and observability in production AI workflows
 
-* *Planned:* Building automated data pipelines and AI workflows using Kestra.
 
 ### ⏳ Module 04: Evaluation & Quality Control — *Upcoming*
 
