@@ -3,7 +3,7 @@ config.py
 __pycache__/
 .DS_Store
 .venv
-02-vector-search/models
+*/models
 .*
 pyproject.toml
 uv.lock
