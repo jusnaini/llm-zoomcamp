@@ -22,6 +22,7 @@ The repository is organized by module. I am actively working through the curricu
 * Compared keyword vs vector search and combined them with hybrid search (Reciprocal Rank Fusion)
 
 ### ✅ [Module 03: Workflow Orchestration with Kestra](./03-orchestration/)
+
 * Explored context engineering — why generic AI assistants fail and how to ground them in current documentation
 * Used Kestra's AI Copilot to generate and refine flows faster than building manually
 * Compared RAG vs no-RAG responses and observed hallucination firsthand
@@ -29,10 +30,12 @@ The repository is organized by module. I am actively working through the curricu
 * Implemented multi-agent systems where specialized agents collaborate on complex tasks
 * Learned best practices for cost, security, and observability in production AI workflows
 
+###  ✅ [Module 04: Evaluation & Quality Control](./04-evaluation/)
 
-### ⏳ Module 04: Evaluation & Quality Control — *Upcoming*
-
-* *Planned:* Setting up evaluation metrics to measure search accuracy and LLM response quality.
+* Generated a ground truth from existing dataset with LLM and structured the output with Pydantic model
+* Evaluated keyword, vector, and hybrid search using Hit Rate and MRR
+* Compared all three search methods on numbers rather than intuition
+* Tuned the RRF `k` parameter for hybrid search and measured its impact on retrieval quality
 
 ### ⏳ Module 05: Monitoring & Observability — *Upcoming*
 
