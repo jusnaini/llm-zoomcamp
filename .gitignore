@@ -9,3 +9,4 @@ pyproject.toml
 uv.lock
 
 traces.db
+*.duckdb*
