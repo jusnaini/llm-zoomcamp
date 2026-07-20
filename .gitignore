@@ -7,3 +7,5 @@ __pycache__/
 .*
 pyproject.toml
 uv.lock
+
+traces.db
