@@ -30,13 +30,17 @@ The repository is organized by module. I am actively working through the curricu
 * Implemented multi-agent systems where specialized agents collaborate on complex tasks
 * Learned best practices for cost, security, and observability in production AI workflows
 
-###  ✅ [Module 04: Evaluation & Quality Control](./04-evaluation/)
+### ✅ [Module 04: Evaluation & Quality Control](./04-evaluation/)
 
 * Generated a ground truth from existing dataset with LLM and structured the output with Pydantic model
 * Evaluated keyword, vector, and hybrid search using Hit Rate and MRR
 * Compared all three search methods on numbers rather than intuition
 * Tuned the RRF `k` parameter for hybrid search and measured its impact on retrieval quality
 
-### ⏳ Module 05: Monitoring & Observability — *Upcoming*
+### ✅ [Module 05: Monitoring & Observability](./05-monitoring/)
 
-* *Planned:* Tracking live system performance, user feedback, and prompt metrics.
+- Built a custom monitoring stack with PostgreSQL, Grafana, and Streamlit via Docker Compose
+- Tracked LLM metrics per conversation: response time, token usage, cost, and answer relevance
+- Implemented user feedback collection and an LLM-as-judge for automated quality scoring
+- Instrumented a RAG pipeline with OpenTelemetry, persisting traces to SQLite
+- Pulled Logfire trace data into DuckDB using dlt and queried token usage across LLM calls
