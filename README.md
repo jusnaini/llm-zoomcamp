@@ -43,4 +43,4 @@ The repository is organized by module. I am actively working through the curricu
 - Tracked LLM metrics per conversation: response time, token usage, cost, and answer relevance
 - Implemented user feedback collection and an LLM-as-judge for automated quality scoring
 - Instrumented a RAG pipeline with OpenTelemetry, persisting traces to SQLite
-- Pulled Logfire trace data into DuckDB using dlt and queried token usage across LLM calls
+- Pulled Logfire trace data into DuckDB using dlt and queried token usage across LLM calls *(dlt Workshop)*
